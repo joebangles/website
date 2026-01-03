@@ -1,6 +1,5 @@
 import "./Home.css";
 import graduation from '../assets/graduation.jpg'
-import BlogPost from './BlogPost.tsx'
 import { useEffect } from 'react';
 
 function App() {
@@ -28,9 +27,6 @@ function App() {
                 <div id="main-body">
                     <h2>About Me</h2>
                     Undergraduate studying Computer Science and Applied Mathematics @ UC Berkeley. Graduating in 2027.
-                    <br />
-                    Most recent post:
-                    <BlogPost />
                 </div>
             </div>
         </>
