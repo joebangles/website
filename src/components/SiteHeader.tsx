@@ -1,3 +1,5 @@
+import { Link } from "react-router";
+
 function SiteHeader() {
     return (
         <>
@@ -6,8 +8,8 @@ function SiteHeader() {
                     <a href="/">Quinn Colello</a>
                     <nav id="page-nav">
                         <ul>
-                            <li><a href="learning">Learning</a></li>
-                            <li><a href="other">Other</a></li>
+                            <li><Link to="/learning">Learning</Link></li>
+                            <li><Link to="/other">Other</Link></li>
                             <li><a href="/colello_resume_dec25.pdf" target="_blank" rel="noopener noreferrer">CV</a></li>
                         </ul>
                     </nav>

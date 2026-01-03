@@ -11,7 +11,7 @@ html, body {
     /* color:var(--van-dyke); */
     /* background-color: #d4d4d4; */
     margin: 0 auto;
-    font-size: 15pt;
+    font-size: 1.1em;
     font-family: "Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
 }
 #frontpage-content {
@@ -68,7 +68,7 @@ h1 {
 }
 .sub-profile {
     color: gray;
-    font-size: 12pt;
+    font-size: 0.9em;
 }
 nav ul {
     list-style: none;
