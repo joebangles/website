@@ -1,5 +1,5 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest';
-import { render, screen } from '@testing-library/react';
+import { render, screen, waitFor } from '@testing-library/react';
 import Home from './Home';
 
 // Mock fetch
@@ -63,11 +63,13 @@ describe('Home', () => {
     expect(image).toHaveAttribute('id', 'me-photo');
   });
 
-  it('makes API call to fetch blog posts', () => {
+  it('makes API call to fetch blog posts', async () => {
     render(<Home />);
     
-    expect(global.fetch).toHaveBeenCalledWith(
-      'https://www.ocf.berkeley.edu/~qcolello/blog_api/run.fcgi/posts/?limit=1'
-    );
+    await waitFor(() => {
+      expect(global.fetch).toHaveBeenCalledWith(
+        'https://www.ocf.berkeley.edu/~qcolello/blog_api/run.fcgi/posts/?limit=1'
+      );
+    });
   });
 });
