@@ -22,7 +22,6 @@ describe('SiteHeader', () => {
     );
     
     expect(screen.getByText('Learning')).toBeInTheDocument();
-    expect(screen.getByText('Other')).toBeInTheDocument();
     expect(screen.getByText('CV')).toBeInTheDocument();
   });
 

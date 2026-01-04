@@ -1,0 +1,28 @@
+header {
+    background-color: #6b6b6b;
+}
+
+.navigation-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navlink {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+.navlink:hover {
+    color: rgb(221, 221, 221);
+}
+
+.navlink--type-home {
+    font-size: 1.5em;
+}
+
+.navlink--position-leftmost {
+    margin-left: auto;
+}
