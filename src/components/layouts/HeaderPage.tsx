@@ -1,4 +1,4 @@
-import SiteHeader from './SiteHeader.tsx'
+import SiteHeader from '../SiteHeader/SiteHeader.tsx'
 import { Outlet } from "react-router";
 
 function HeaderPage() {

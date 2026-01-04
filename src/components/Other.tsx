@@ -1,5 +1,3 @@
-import "./Home.css";
-
 function Other() {
     return (
         <>

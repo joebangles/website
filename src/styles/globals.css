@@ -1,0 +1,30 @@
+
+* {
+    --dutch-white: rgb(236, 232, 223);
+    --jordy-blue: #afcbffff;
+    --van-dyke: rgb(55, 49, 49);
+    --old-rose: #ba6e6eff;
+    --sea-green: #3e885bff;
+}
+html, body {
+    height: 100%;
+    line-height:1.6;
+    margin: 0 auto;
+    
+    font-size: 1.1em;
+    font-family: "Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+}
+h1, h2, h3{
+    line-height:1.2
+}
+a {
+    color: var(--sea-green);
+    text-decoration: underline;
+}
+.subwidth-wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}

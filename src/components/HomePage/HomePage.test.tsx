@@ -1,6 +1,6 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest';
 import { render, screen, waitFor } from '@testing-library/react';
-import Home from './Home';
+import Home from './HomePage';
 
 // Mock fetch
 global.fetch = vi.fn();
@@ -60,7 +60,7 @@ describe('Home', () => {
     
     const image = screen.getByAltText('profile picture');
     expect(image).toBeInTheDocument();
-    expect(image).toHaveAttribute('id', 'me-photo');
+    expect(image).toHaveClass('profile-photo');
   });
 
   it('makes API call to fetch blog posts', async () => {
