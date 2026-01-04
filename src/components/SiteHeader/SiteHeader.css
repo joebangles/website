@@ -5,7 +5,7 @@ header {
 .navigation-container {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 1em;
 }
 
 .navlink {
@@ -15,7 +15,7 @@ header {
     font-size: 1.25em;
 }
 
-.navlink:hover {
+.navlink:active {
     color: rgb(221, 221, 221);
 }
 
