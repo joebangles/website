@@ -4,6 +4,7 @@ function App() {
     const favorite = <span style={{ color: 'red' }}>*</span>
 
     return (
+        <>
         <span className="coursework">
             Mostly taken at Berkeley. Some favorite courses marked. ({favorite})
             <br />
@@ -12,10 +13,14 @@ function App() {
                 <li> CS 61A - The Structure and Interpretation of Computer Programs </li>
                 <li> CS 61B - Data Structures </li>
                 <li> CS 61C - Great Ideas of Computer Architecture (Machine Structures){favorite}</li>
+                <li> CS 162 - Operating Systems and System Programming </li>
                 <li> CS 168 - Introduction to the Internet: Architecture and Protocols </li>
                 <li> CS 170 - Efficient Algorithms and Intractable Problems{favorite} </li>
+                <li> CS 189 - Introduction to Machine Learning </li>
                 <li> EECS 126 - Probability and Random Processes{favorite} </li>
                 <li> EECS 127 - Optimization Models in Engineering </li>
+                <li> EECS 151 - Introduction to Digital Design and Integrated Circuits </li>
+                <li> EECS 151LB - Field-Programmable Gate Array Laboratory </li>
                 <li> STAT 198 - Intro to AI Safety DeCal </li>
             </ul>
             <span className="topic">Mathematics</span>
@@ -41,6 +46,7 @@ function App() {
                 <li> PHYSICS 137A - Quantum Mechanics</li>
             </ul>
         </span>
+        </>
     )
 }
 
