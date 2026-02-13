@@ -1,7 +1,11 @@
+.frontpage-name {
+    font-size: 2em;
+    /* font-weight: bold; */
+    font-variant: small-caps;
+}
 .frontpage-content {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
     justify-content: space-between;
     background-color: white;
     padding: 20px;
@@ -11,16 +15,15 @@
 }
 .profile {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-shrink: 0;
-    min-width: 220px;
+    flex-direction: row;
+    width: 100%;
+    gap: 20px;
 }
-.profile-photo {
-    max-width: 200px;
-    max-height: 200px;
+.frontpage-headshot {
+    max-width: 300px;
+    /* max-height: 200px; */
     object-fit: cover;
-    border-radius: 50%;
+    /* border-radius: 50%; */
 }
 .profile-text {
     display: flex;
