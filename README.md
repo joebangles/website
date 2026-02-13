@@ -61,6 +61,10 @@ src/
 └── main.tsx         # Application entry point
 ```
 
+## Deployment & Routing
+
+This is a Single Page Application (SPA) with client-side routing.
+
 ## Scripts
 
 - `npm run dev` - Start development server
@@ -75,20 +79,3 @@ This project uses a two-branch workflow with automatic deployment:
 
 - **`dev`** - Active development branch (push changes here)
 - **`main`** - Production branch (automatically deploys on merge)
-
-### Quick Start
-```bash
-# Work on dev branch
-git checkout dev
-# ... make changes ...
-git push origin dev
-
-# Deploy to production: Create PR from dev → main on GitHub
-```
-
-See [WORKFLOW.md](./WORKFLOW.md) for complete workflow documentation including:
-- Branch strategy
-- Deployment process
-- First-time setup instructions
-- GitHub secrets configuration
-- Troubleshooting tips
