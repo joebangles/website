@@ -1,5 +1,5 @@
 header {
-    background-color: #6b6b6b;
+    background-color: #dddddd;
 }
 
 .navigation-container {
@@ -9,10 +9,10 @@ header {
 }
 
 .navlink {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
-    font-weight: bold;
-    font-size: 1.25em;
+    /* font-weight: bold; */
+    /* font-size: 1em; */
 }
 
 .navlink:active {

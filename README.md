@@ -45,22 +45,6 @@ npm test
 npm run test:coverage
 ```
 
-See [TESTING.md](./TESTING.md) for detailed testing documentation.
-
-## Project Structure
-
-```
-src/
-├── components/       # React components
-│   ├── Home.tsx
-│   ├── SiteHeader.tsx
-│   ├── BlogPost.tsx
-│   └── *.test.tsx   # Component tests
-├── assets/          # Images and static assets
-├── test/            # Test setup and utilities
-└── main.tsx         # Application entry point
-```
-
 ## Deployment & Routing
 
 This is a Single Page Application (SPA) with client-side routing.
@@ -72,10 +56,3 @@ This is a Single Page Application (SPA) with client-side routing.
 - `npm run preview` - Preview production build
 - `npm test` - Run tests
 - `npm run lint` - Run ESLint
-
-## Development Workflow
-
-This project uses a two-branch workflow with automatic deployment:
-
-- **`dev`** - Active development branch (push changes here)
-- **`main`** - Production branch (automatically deploys on merge)
