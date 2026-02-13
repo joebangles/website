@@ -10,7 +10,7 @@ html, body {
     height: 100%;
     line-height:1.6;
     margin: 0 auto;
-    
+
     font-size: 1.1em;
     font-family: "Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
 }
@@ -27,4 +27,10 @@ a {
     margin: 0 auto;
     padding: 0 20px;
     box-sizing: border-box;
+}
+
+#root {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }

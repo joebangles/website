@@ -1,0 +1,15 @@
+footer {
+    background-color: rgb(240, 240, 240);
+    margin-top: auto;
+}
+
+hr {
+    background-color: rgb(241, 241, 241);
+    border-color: rgb(241, 241, 241);
+    color: rgb(241, 241, 241);
+}
+
+.footer-text {
+    color: rgb(155, 161, 166);
+    font-size: 0.8em;
+}
