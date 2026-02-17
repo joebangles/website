@@ -5,6 +5,7 @@ import Home from './components/HomePage/HomePage.tsx'
 import SitePage from './components/layouts/SitePage.tsx'
 import Learning from './components/Learning/Learning.tsx'
 import Other from './components/Other.tsx'
+import Courses from './components/Courses/Courses.tsx'
 
 import './styles/globals.css'
 
@@ -14,6 +15,7 @@ createRoot(document.getElementById('root')!).render(
             <Route element={<SitePage />}>
                 <Route index element={<Home />} />
                 <Route path="learning" element={<Learning />} />
+                <Route path="courses" element={<Courses />} />
                 <Route path="other" element={<Other />} />
             </Route>
         </Routes>
