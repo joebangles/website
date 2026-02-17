@@ -22,7 +22,7 @@ h1, h2, h3{
 }
 a {
     color: var(--sea-green);
-    text-decoration: underline;
+    text-decoration: none;
 }
 .subwidth-wrapper {
     width: 100%;
@@ -30,6 +30,11 @@ a {
     margin: 0 auto;
     padding: 0 20px;
     box-sizing: border-box;
+}
+@media only screen and (max-width: 600px) {
+    .subwidth-wrapper {
+        padding: 0 10px;
+    }
 }
 
 #root {
