@@ -8,6 +8,7 @@ What it sounds like.
 - **TypeScript** - Type safety
 - **Vite** - Build tool and dev server
 - **React Router** - Client-side routing
+- **GitHub Actions** - Deployment action
 
 ## Getting Started
 
@@ -35,10 +36,13 @@ npm run preview
 
 This is a Single Page Application (SPA) with client-side routing.
 
+On PR from dev -> main, project is built and FTP pushed to host.
+
 ## Scripts
 
 - `npm run dev` - Start development server
 - `npm run build` - Build for production
 - `npm run preview` - Preview production build
 - `npm run lint` - Run ESLint
+
 
