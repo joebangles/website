@@ -1,6 +1,6 @@
 # Quinn Colello's Personal Website
 
-A personal website built with Vite + React + TypeScript to showcase projects, blog posts, and professional information.
+What it sounds like.
 
 ## Tech Stack
 
@@ -8,8 +8,6 @@ A personal website built with Vite + React + TypeScript to showcase projects, bl
 - **TypeScript** - Type safety
 - **Vite** - Build tool and dev server
 - **React Router** - Client-side routing
-- **Vitest** - Testing framework
-- **React Testing Library** - Component testing
 
 ## Getting Started
 
@@ -33,18 +31,6 @@ npm run build
 npm run preview
 ```
 
-### Testing
-```bash
-# Run tests once
-npm test -- --run
-
-# Run tests in watch mode
-npm test
-
-# Run tests with coverage
-npm run test:coverage
-```
-
 ## Deployment & Routing
 
 This is a Single Page Application (SPA) with client-side routing.
@@ -54,5 +40,5 @@ This is a Single Page Application (SPA) with client-side routing.
 - `npm run dev` - Start development server
 - `npm run build` - Build for production
 - `npm run preview` - Preview production build
-- `npm test` - Run tests
 - `npm run lint` - Run ESLint
+
