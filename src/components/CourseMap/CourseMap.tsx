@@ -244,7 +244,7 @@ function CourseMap() {
                         </div>
                         {selectedPrereqNodes.length > 0 && (
                             <div className="course-info-prereqs">
-                                <span className="course-info-prereqs-label">Prerequisites (Click to view):</span>
+                                <span className="course-info-prereqs-label">Prerequisites (Click to change focus):</span>
                                 <ul>
                                     {selectedPrereqNodes.map(node => (
                                         <li
@@ -257,7 +257,7 @@ function CourseMap() {
                                                 style={{ backgroundColor: typeColors[node.type] }}
                                             />
                                             {node.fullName}
-                                            {node.strength === "recommended" && <span className="course-info-tag">recommended</span>}
+                                            {node.strength === "recommended" && <span className="course-info-tag">(recommended)</span>}
                                         </li>
                                     ))}
                                 </ul>
@@ -265,7 +265,7 @@ function CourseMap() {
                         )}
                     </>
                 ) : (
-                    <div className="course-info-empty">Click a node to see course details</div>
+                    <div className="course-info-empty">Click a node to begin</div>
                 )}
             </div>
         </div>

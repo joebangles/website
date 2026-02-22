@@ -1,13 +1,13 @@
-import './Courses.css'
+import './CourseList.css'
 
-function Courses() {
+function CourseList() {
     const favorite = <span style={{ color: 'red' }}>*</span>
 
     return (
         <>
         <br />
         <span className="coursework">
-            Some favorite courses marked. ({favorite})
+            Mostly taken at Berkeley. Some favorite courses marked. ({favorite})
             <br />
             <span className="topic">Computer Science</span>
             <ul>
@@ -51,4 +51,4 @@ function Courses() {
     )
 }
 
-export default Courses
+export default CourseList

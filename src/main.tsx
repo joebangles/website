@@ -1,11 +1,15 @@
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from "react-router";
 
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fas } from '@fortawesome/free-solid-svg-icons'
+library.add(fas);
+
 import Home from './components/HomePage/HomePage.tsx'
 import SitePage from './components/layouts/SitePage.tsx'
-import Learning from './components/Learning/Learning.tsx'
+import CourseMapPage from './components/CourseMapPage/CourseMapPage.tsx'
 import Other from './components/Other.tsx'
-import Courses from './components/Courses/Courses.tsx'
+import CourseList from './components/CourseList/CourseList.tsx'
 
 import './styles/globals.css'
 
@@ -14,8 +18,8 @@ createRoot(document.getElementById('root')!).render(
         <Routes>
             <Route element={<SitePage />}>
                 <Route index element={<Home />} />
-                <Route path="learning" element={<Learning />} />
-                <Route path="courses" element={<Courses />} />
+                <Route path="course-map" element={<CourseMapPage />} />
+                <Route path="course-list" element={<CourseList />} />
                 <Route path="other" element={<Other />} />
             </Route>
         </Routes>

@@ -11,7 +11,7 @@
     border: 1px solid #ddd;
     /* border: 1px solid green; */
     border-radius: 6px;
-    background: #fff;
+    background: #fafafa;
 }
 
 .course-node {
@@ -68,7 +68,7 @@
     margin-top: 12px;
     padding: 10px 14px;
     border: 1px solid #ddd;
-    border-radius: 6px;
+    border-radius: 0px;
     background: #fafafa;
     font-size: 0.85em;
     min-height: 40px;
@@ -76,7 +76,7 @@
 
 .course-info-empty {
     color: #999;
-    font-style: italic;
+    /* font-style: italic; */
 }
 
 .course-info-title {
@@ -126,7 +126,7 @@
 .course-info-tag {
     font-size: 0.75em;
     color: #999;
-    font-style: italic;
+    /* font-style: italic; */
     margin-left: 4px;
 }
 
