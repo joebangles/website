@@ -36,7 +36,7 @@ npm run preview
 
 This is a Single Page Application (SPA) with client-side routing.
 
-On PR from dev -> main, project is built and FTP pushed to host.
+On PR into main, project is built and FTP pushed to host through Github Actions.
 
 ## Scripts
 
@@ -44,5 +44,3 @@ On PR from dev -> main, project is built and FTP pushed to host.
 - `npm run build` - Build for production
 - `npm run preview` - Preview production build
 - `npm run lint` - Run ESLint
-
-
