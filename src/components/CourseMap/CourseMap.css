@@ -1,0 +1,146 @@
+.course-map-container {
+    margin: 20px 0;
+    /* border: 1px solid red; */
+}
+
+.course-map {
+    width: 100%;
+    /* max-width: 900px; */
+    height: auto;
+    display: block;
+    border: 1px solid #ddd;
+    /* border: 1px solid green; */
+    border-radius: 6px;
+    background: #fafafa;
+}
+
+.course-node {
+    cursor: pointer;
+    transition: opacity 0.15s ease;
+    user-select: none;
+}
+
+.course-map line {
+    transition: opacity 0.15s ease, stroke-width 0.15s ease;
+}
+
+.course-map-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    font-size: 0.8em;
+    color: #666;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    /* color: white;
+    border-radius: 10%;
+    padding: 0 4px; */
+}
+
+.legend-dot {
+    width: 10px;
+    height: 10px;
+    /* border-radius: 50%; */
+    display: inline-block;
+}
+
+.legend-line-solid {
+    width: 20px;
+    height: 0;
+    border-top: 2px solid #999;
+    display: inline-block;
+}
+
+.legend-line-dashed {
+    width: 20px;
+    height: 0;
+    border-top: 2px dashed #999;
+    display: inline-block;
+}
+
+.legend-credit {
+    margin-left: auto;
+}
+
+/* Course info panel */
+.course-info-panel {
+    margin-top: 12px;
+    padding: 10px 14px;
+    border: 1px solid #ddd;
+    border-radius: 0px;
+    background: #fafafa;
+    font-size: 0.85em;
+    min-height: 40px;
+}
+
+.course-info-empty {
+    color: #999;
+    /* font-style: italic; */
+}
+
+.course-info-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+    font-size: 0.95em;
+}
+
+.course-info-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+    flex-shrink: 0;
+}
+
+.course-info-prereqs {
+    margin-top: 6px;
+}
+
+.course-info-prereqs-label {
+    font-size: 0.85em;
+    color: #666;
+}
+
+.course-info-prereqs ul {
+    margin: 4px 0 0 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.course-info-prereq {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 3px 0;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.course-info-prereq:hover {
+    text-decoration: underline;
+}
+
+.course-info-tag {
+    font-size: 0.75em;
+    color: #999;
+    /* font-style: italic; */
+    margin-left: 4px;
+}
+
+@media only screen and (max-width: 600px) {
+    .course-map-legend {
+        gap: 10px;
+        font-size: 0.75em;
+    }
+
+    .course-info-panel {
+        font-size: 0.78em;
+        padding: 8px 10px;
+    }
+}
