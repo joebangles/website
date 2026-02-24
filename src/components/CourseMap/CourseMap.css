@@ -36,12 +36,15 @@
     display: flex;
     align-items: center;
     gap: 5px;
+    /* color: white;
+    border-radius: 10%;
+    padding: 0 4px; */
 }
 
 .legend-dot {
     width: 10px;
     height: 10px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     display: inline-block;
 }
 

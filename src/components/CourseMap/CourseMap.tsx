@@ -213,7 +213,11 @@ function CourseMap() {
 
             <div className="course-map-legend">
                 {legendTypes.map(type => (
-                    <span key={type} className="legend-item">
+                    <span 
+                        key={type}
+                        // style={{ backgroundColor: typeColors[type] }} 
+                        className="legend-item"
+                    >
                         <span
                             className="legend-dot"
                             style={{ backgroundColor: typeColors[type] }}
@@ -222,10 +226,10 @@ function CourseMap() {
                     </span>
                 ))}
                 <span className="legend-item legend-line-info">
-                    <span className="legend-line-solid" /> required
+                    <span className="legend-line-solid" /> Required
                 </span>
                 <span className="legend-item legend-line-info">
-                    <span className="legend-line-dashed" /> recommended
+                    <span className="legend-line-dashed" /> Recommended
                 </span>
                 <span className="legend-item legend-credit">
                     Inspired by <a href='https://math.berkeley.edu/~musa/exposition' target='_blank'>Andrew DeLapo</a>
