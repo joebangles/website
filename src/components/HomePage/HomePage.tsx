@@ -2,7 +2,8 @@ import "./HomePage.css";
 // import graduation from '../../assets/graduation.jpg'
 // import headshot from '../../assets/feb_headshot.jpg'
 // import headshot2 from '../../assets/DSC02704_crop3.jpg'
-import headshot_edited from '../../assets/DSC02704_crop4_edited.jpg'
+// import headshot_edited from '../../assets/DSC02704_crop4_edited.jpg'
+import headshot from '../../assets/FEB_photo.jpg'
 import github_logo from '../../assets/github_logo.svg'
 import linkedin_logo from '../../assets/linkedin_logo.png'
 
@@ -10,7 +11,7 @@ function App() {
     return (
         <div className="frontpage-content">
             <div className="frontpage-profile">
-                <img src={headshot_edited} alt="profile picture" className="frontpage-headshot" />
+                <img src={headshot} alt="profile picture" className="frontpage-headshot" />
                 <div className="profile-text">
                     <span className="frontpage-name">Quinn Colello</span>
                     <span className="profile-text-line">Berkeley, CA - Carlsbad, CA</span>
