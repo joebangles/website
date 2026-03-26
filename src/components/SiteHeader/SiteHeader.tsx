@@ -35,7 +35,7 @@ function SiteHeader() {
                                 </div>
                             )}
                         </div>
-                        <a href="/colello_cv.pdf" target="_blank" rel="noopener noreferrer" className="navlink">CV</a>
+                        <a href="/quinn_colello_resume.pdf" target="_blank" rel="noopener noreferrer" className="navlink">Resume</a>
                     </div>
                 </div>
             </header>
