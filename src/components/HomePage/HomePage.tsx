@@ -31,9 +31,6 @@ function App() {
             <div className="frontpage-main-content">
                 <div>
                     Third year studying Computer Science and Applied Mathematics at <a href="https://www.berkeley.edu" target="_blank">UC Berkeley</a>.
-                    <br />
-                    <br />
-                    Building real code powered by interesting theory. 
                 </div>
             </div>
         </div>  
