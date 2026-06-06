@@ -2,15 +2,10 @@
 
 What it sounds like.
 
-## Tech Stack
+## Stack
+React, TypeScript, Vite, React Router, GitHub Actions
 
-- **React 19** - UI framework
-- **TypeScript** - Type safety
-- **Vite** - Build tool and dev server
-- **React Router** - Client-side routing
-- **GitHub Actions** - Deployment action
-
-## Getting Started
+## Development
 
 ### Install Dependencies
 ```bash
@@ -22,14 +17,9 @@ npm install
 npm run dev
 ```
 
-### Build for Production
+### Build
 ```bash
 npm run build
-```
-
-### Preview Production Build
-```bash
-npm run preview
 ```
 
 ## Deployment & Routing
@@ -37,10 +27,3 @@ npm run preview
 This is a Single Page Application (SPA) with client-side routing.
 
 On PR into main, project is built and FTP pushed to host through Github Actions.
-
-## Scripts
-
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint
